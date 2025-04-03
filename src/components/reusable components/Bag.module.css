@@ -1,0 +1,51 @@
+.bag {
+  background: linear-gradient(135deg, #f8f9fa14, #e8eaf6);
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 280px;
+  height: 180px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 30px;
+  left: 79%;
+}
+.bag h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  color: #4a4a4a;
+  margin-bottom: 15px;
+}
+
+.bagItems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+}
+.bagItem:hover .itemImage {
+  transform: translateY(-5px);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.4));
+}
+
+.bagItem {
+  margin-bottom: 10px;
+  text-align: center;
+  width: fit-content;
+}
+.bagItem p {
+  margin-top: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.itemImage {
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  object-fit: contain;
+  border-radius: 50%;
+  transition: transform 0.4s ease, filter 0.3s ease, box-shadow 0.3s ease;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.4));
+}

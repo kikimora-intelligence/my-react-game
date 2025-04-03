@@ -1,0 +1,32 @@
+.room3 {
+  background-image: url("/public/images/room3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialogue-box {
+  margin-bottom: 20px;
+}
+
+.item-container {
+  margin-top: 20px;
+}
+
+.item-description {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-image {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}

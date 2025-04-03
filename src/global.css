@@ -1,0 +1,22 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bag {
+  background: linear-gradient(135deg, #f8f9fa14, #e8eaf6);
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 280px;
+  height: 180px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  bottom: 30px;
+  left: 38%;
+}

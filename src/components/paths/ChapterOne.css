@@ -1,0 +1,83 @@
+.chapter-one-container {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  height: 100vh;
+  background-image: url("/public/images/chapter-one.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-box {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.text-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  font-size: 28px;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  padding: 10px;
+  height: 17%;
+  background-image: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.8) 0%,
+      rgb(190, 78, 207) 100%,
+      rgb(128, 19, 169) 100%,
+      rgba(255, 204, 255, 0.3) 80%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("/public/images/sparkle.png");
+  background-size: cover;
+}
+
+.next-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: black;
+  border-radius: 50%;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 9cm;
+  margin-bottom: 1cm;
+}
+
+.next-button:hover {
+  background-color: #2980b9;
+}
+
+.orb {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.477);
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+  padding: 5rem;
+  margin-left: 9.5cm;
+  margin-top: 7cm;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.orb:hover {
+  background-color: rgba(0, 238, 44, 0.532);
+  transform: scale(1.1);
+}

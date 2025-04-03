@@ -1,0 +1,129 @@
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  padding: 20px;
+  background-color: #ad43b7;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.characterSelection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.arrowButton {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.characterImageContainer {
+  margin: 0 20px;
+}
+
+.characterImage {
+  width: 250px;
+  height: auto;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.5));
+}
+
+.nameInput {
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 24px;
+  width: 280px;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.5));
+}
+
+.startGameButton {
+  margin-top: 45px;
+  padding: 10px 20px;
+  font-size: 29px;
+  color: white;
+  cursor: pointer;
+  border: 2px solid #fff;
+  background-color: transparent;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3 ease;
+}
+
+.startGameButton:hover {
+  box-shadow: 0 0 10px 5px rgb(9, 67, 9);
+  transform: scale(1.05);
+  background-color: rgba(128, 255, 0, 0.468);
+}
+.sidebar {
+  position: fixed; /* Keeps it fixed on the right side */
+  right: 20px; /* Distance from the right edge */
+  top: 50%; /* Centers vertically on the screen */
+  transform: translateY(-50%); /* Fix the vertical centering */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  width: 250px; /* Adjust the width */
+}
+
+.weatherSection,
+.chatbotSection {
+  width: 100%;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.weatherSection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.weatherSection img {
+  width: 50px;
+  height: 50px;
+}
+
+.chatbotSection input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+}
+
+.chatbotSection button {
+  margin-top: 8px;
+  padding: 6px 12px;
+  font-size: 14px;
+  color: white;
+  background-color: #ff6f61;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.chatbotSection button:hover {
+  background-color: #ff3b2f;
+}
+
+.chatResponse {
+  margin-top: 8px;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  font-size: 14px;
+}

@@ -1,0 +1,47 @@
+.labyrinthContainer {
+  text-align: center;
+  margin: 20px;
+}
+
+.instructions {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.labyrinth {
+  display: inline-block;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wall {
+  background-color: #333;
+}
+
+.path {
+  background-color: #fff;
+}
+
+.player {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+}
+
+.goal {
+  width: 20px;
+  height: 20px;
+  background-color: green;
+}
